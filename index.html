@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Array objects carousel</title>
+    <link rel="shortcut icon" href="./img/icon-carousel.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
         <div class="carousel">
-            <img class="active" src="./img/01.webp" alt="">
-            <img class="inactive" src="./img/02.webp" alt="">
-            <img class="inactive" src="./img/03.webp" alt="">
-            <img class="inactive" src="./img/04.webp" alt="">
-            <img class="inactive" src="./img/05.webp" alt="">
+            <div id="img_container" class="images_container">
+                
+            </div>
+
+            <!-- Buttons -->
+            <div id="next" class="button">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+            <div id="prev" class="button">
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
         </div>
     </div>
 </body>
-</html>
+
+
+</html><script type="text/javascript" src="./js/script.js"></script>
